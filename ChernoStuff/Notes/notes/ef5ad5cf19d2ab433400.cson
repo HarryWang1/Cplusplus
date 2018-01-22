@@ -1,0 +1,74 @@
+createdAt: "2017-12-28T00:57:28.896Z"
+updatedAt: "2017-12-28T01:23:10.050Z"
+type: "MARKDOWN_NOTE"
+folder: "093dd64608a1ed5580f1"
+title: "How C++ Compiler and Linker Works"
+content: '''
+  ## How C++ Compiler and Linker Works
+  
+  [ChernoProject How Compiler Works](https://youtu.be/3tIqpEmWMLI)
+  
+  [ChernoProject How Linker Works](https://youtu.be/H4s55GgAg0I)
+  
+  
+  Compiler takes CPP files and turns into "translation units". (Files have no meaning, it just tells the compiler how to compile it)
+  
+  Note: A .cpp file turns into a translation unit. If you wanted you could have a bunch of .cpp files together and it turns into **1** translation unit. But otherwise, if you just have a lot of .cpp files it will turn each one individually into a translation unit. 
+  
+  ### Compiler Steps
+  ##### 1. Takes all the preprocessor statements, or the #include, #define, etc. 
+  
+  ###### Ex. on Header Files
+  I can create a header file called: Endbrace.h
+  ```js
+  }
+  ```
+  
+  If I have a code like:
+  
+  ```js
+  int main(){
+      //Some Code
+  #include "EndBrace.h"
+  ```
+  This will work b/c #include literally, copies and pastes the file, and will then balance the end of the code.
+  
+  ###### Ex. On define:
+  ```js
+  #define INTEGER int
+  
+  INTEGER multiply(int a, int b){
+      INTEGER result = a * b;
+      return result
+  }
+  ``` 
+  
+  Define will take whatever word is after it, and replace it with the following thing. So in this case, all INTEGER, would be replaced with int, allowing the code to still run. 
+  
+  ###### Ex on: #if
+  
+  ```js
+  #if 0
+  int Multiply(){
+  //stuff
+  }
+  #endif
+  ```
+  
+  ```js
+  #if 1
+  int Multiply(){
+  //stuff
+  }
+  #endif
+  ```
+  
+  If is a way to turn off and on blocks of code, if 1 (True), if 0 (False).
+  
+  ##### 2. Moves it into a translation unit, or .obj
+  Takes it into a different file, and then optimized and then turned into machine code. 
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false
