@@ -1,0 +1,85 @@
+createdAt: "2018-01-22T20:02:30.141Z"
+updatedAt: "2018-01-24T20:05:16.345Z"
+type: "MARKDOWN_NOTE"
+folder: "8adc0cf20de0e39bcade"
+title: "C++: Learning the Basics"
+content: '''
+  ### C++: Learning the Basics
+  1/22/18
+  [Sterling Class Link](http://cse.poly.edu/jsterling/cs2124/LectureNotes/01.Intro.html")
+  
+  **C++ Primitive Types:** int, double, char, boolean
+  **C++ Defined Types:** Vector, String
+  Note: 
+  1. Vector is a type of an array. 
+  2. Int is usually 32 bit, but depends. But 32 bit is the standard.
+  
+  ```js
+  #include <iostream>
+  #include <string>
+  #include <vector>
+  using namespace std;
+  
+  int main() {
+  	std::cout << "Hello cs2124!\\n";
+  	cout << "Hello!\\n";
+  	cout << "Hello!" << endl;
+  
+  	//return 0
+  
+  	
+  	string s;
+  	cin >> s;
+  	cout << s << endl;
+  	
+  	
+  	int x = 0;
+  	
+  	if (x == 28)
+  	{
+  		cout << "Perfect!\\n";
+  	}
+  	else if (x == 6) {
+  		cout << "also perfect" << endl;
+  	}
+  
+  	else {
+  		cout << "Imperfect" << endl;
+  	}
+  
+  	for (int i = 1; i <= 10; ++i) {
+  		cout << i << ' ';
+  	}
+  
+  	cout << endl;
+  
+  	int counter = 1;
+  	while (counter <= 10) {
+  		cout << counter << ' ';
+  		counter++;
+  	}
+  	cout << endl;
+      
+      vector <int> v;
+  }
+  
+  
+  ``` 
+  Additional Note of the Code Above:
+  1. You can use "using namespace std;" in order to not have to define the namespace again. 
+  2. endl; is just another way to do \\n line. 
+  3. Try to stay away from single varaible naming, but "i" is okay
+'''
+tags: [
+  "namespace"
+  "endl"
+  "ifelse"
+  "if-else"
+  "while"
+  "data_types"
+  "data"
+  "types"
+  "1/22/18"
+]
+isStarred: false
+isTrashed: false

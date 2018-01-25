@@ -1,0 +1,106 @@
+createdAt: "2018-01-23T14:31:09.162Z"
+updatedAt: "2018-01-23T20:02:30.647Z"
+type: "MARKDOWN_NOTE"
+folder: "425df290fb358f0b704e"
+title: "Chemistry"
+content: '''
+  ## Chemistry 
+  #### January 23rd, 2017
+  
+  Chemistry is the study of matter and the changes it undergoes. 
+  1. **Matter** is anything that occupies space and has mass
+  2. A **substance** is a form of matter that has a definite composition and distinct properties   
+  
+  ### Classification of matter: 
+  >Classify matter by composition
+  1. Pure substance
+      * Elements
+          * Can not be separated into simpler substance by chemical means
+          * All elements made up of **unique** atoms, or representative particle of an element. 
+        * **Molecule**: Chemical combination of two or more atoms. Ex. Cl<sub>2</sub> or O<sub>2</sub>. Molecule can be composed of two or more of the same item. 
+  2. Mixture: Combination of two or more substances in which the substances retain their distinct identity
+      
+      * **Compound** is composed of **two or more different elements**
+          * C<sub>6</sub>H<sub>12</sub>O<sub>6 </sub>
+  > 1. **Homogenous mixture** - composition of the mixture is the same throughout
+  >     * Ex. Soft drink, milk, solder
+  > 2. **Heterogeous mixture** - composition is not uniform throughout
+  >     * Ex. Cement or iron fillings in sand 
+  
+  Note: 
+  Can separate **mixture** through physical means
+  Can separate **compound** through chemical means
+  
+  ### Properties of Matter: 
+   **Physical properties**: can be measured or observed without changing the composition of the substance.
+   **Chemical properties**: Is the way that a substance may change into another substance
+   * Always involve changing of composition and identity and results in different substance
+   
+  
+  **Physical Change** is a change in appearance but not a change in chemical identity. 
+  1. Phase Change: Liquid to solid, liquid to gas, etc. 
+  2. Dissolving a subtance: When dissolving sugar in water for ex. Still same chemical identity
+  
+  **Chemical Change** is a change to a substance through chemical reaction
+  
+  ### Extensive and Intensive Properties
+  1. Intensive: "I" for independent
+      * Intrinsic property can be used to ID material. Does NOT depend on amount of substance
+      * Ex. Density etc. 
+  2. Extensive: Depends on the amount of substance
+      * Ex. Length, mass, volume
+  
+  ### Matter and Related Measurements
+  **Matter** - Anything that occupies space and has mass
+  1. **Mass**: Measure of quantity of matter
+      * Sl unity of mass is kilogram
+  >Learn prefix of the unit of mass
+  2. **Weight** Force that gravity exerts on an object
+  3. **Volume**: Sl derived unit for volume is cubic meter (m<sup>3</sup>)
+  4. **Density**: Sl derived unit for density is kg / m <sup>2</sup>
+     * Mass over Volume
+  
+  **Temperature**: 
+  1. Farenheit conversion: 9/5 * C + 32
+     * 32&deg; F = 0&deg; C
+     * 212&deg; F = 100&deg; C
+  2. Kelvin: C + 273.15
+     * 27&deg;3 K = 0&deg; C
+     * 373 K = 100 C
+     * 0 K = absolute 0
+  
+  Ex. 172.9 F  -->>  F = 9 / 5 * C + 32
+  1. F - 32 = 9/5 * C
+  2. (F - 32) * 5 / 9 = C
+  3. Get farenheit result. 
+  
+  ### Scientific Notation:
+  **writing scientific**: 568.762 > 5.68762 * 10 <sup>2</sup>
+  **Multiplying scientific**:
+  1. multiply N<sub>1</sub> and N<sub>2</sub>
+  2. Add exponents of the numbers together. 
+  3. Ex. (4.0 * 10 ^ 5) x (7.0 * 10 ^ -5)
+  4. = 4 * 7 x (10 ^ (-5 + 3))
+  5. 28 * 10 ^ -2
+  6. 2.8 * 10 ^ -1
+  
+  **Divide**
+  1. Divide the numbers and subtract the exponent
+  2. 
+'''
+tags: [
+  "january_23"
+  "chemistry"
+  "matter"
+  "classification"
+  "compound"
+  "element"
+  "homogenous_mixture"
+  "heterogeous_mixture"
+  "physical_properties"
+  "chemical_properties"
+  "extensive"
+  "intensive"
+]
+isStarred: false
+isTrashed: false
