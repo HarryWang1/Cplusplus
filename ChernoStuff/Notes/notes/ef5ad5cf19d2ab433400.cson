@@ -1,5 +1,5 @@
 createdAt: "2017-12-28T00:57:28.896Z"
-updatedAt: "2018-01-22T20:21:55.510Z"
+updatedAt: "2017-12-28T01:23:10.050Z"
 type: "MARKDOWN_NOTE"
 folder: "093dd64608a1ed5580f1"
 title: "How C++ Compiler and Linker Works"
@@ -36,11 +36,13 @@ content: '''
   ###### Ex. On define:
   ```js
   #define INTEGER int
-      INTEGER multiply(int a, int b){
+  
+  INTEGER multiply(int a, int b){
       INTEGER result = a * b;
       return result
   }
   ``` 
+  
   Define will take whatever word is after it, and replace it with the following thing. So in this case, all INTEGER, would be replaced with int, allowing the code to still run. 
   
   ###### Ex on: #if
@@ -67,11 +69,6 @@ content: '''
   Takes it into a different file, and then optimized and then turned into machine code. 
   
 '''
-tags: [
-  "compiler"
-  "linker"
-  "preprocessor"
-  ".obj"
-]
+tags: []
 isStarred: false
 isTrashed: false

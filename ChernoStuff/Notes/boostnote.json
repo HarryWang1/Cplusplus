@@ -3,17 +3,7 @@
     {
       "key": "093dd64608a1ed5580f1",
       "color": "#1278BD",
-      "name": "Cherno"
-    },
-    {
-      "key": "8adc0cf20de0e39bcade",
-      "color": "#30D5C8",
-      "name": "Sterling"
-    },
-    {
-      "key": "425df290fb358f0b704e",
-      "color": "#B013A4",
-      "name": "Chemistry"
+      "name": "Default"
     }
   ],
   "version": "1.0"
