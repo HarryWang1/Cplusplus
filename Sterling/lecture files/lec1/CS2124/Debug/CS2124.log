@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (CS2124.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  jwl488_hw01.cpp
+  CS2124.vcxproj -> C:\Users\Justin Lin\Desktop\C++\Sterling\CS\Debug\Class.exe
+  CS2124.vcxproj -> C:\Users\Justin Lin\Desktop\C++\Sterling\CS\Debug\Class.pdb (Partial PDB)
