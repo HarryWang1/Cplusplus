@@ -18,5 +18,8 @@
     <ClCompile Include="main_function.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="otherOption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

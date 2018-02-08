@@ -22,7 +22,7 @@
     <Text Include="battle.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main_function.cpp">
+    <ClCompile Include="hw02.cpp">
       <SubType>
       </SubType>
     </ClCompile>
