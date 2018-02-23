@@ -1,0 +1,5 @@
+﻿  rec03.cpp
+c:\users\justin lin\desktop\c++\sterling\recitation files\rec03\rec03\rec03.cpp(39): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\justin lin\desktop\c++\sterling\recitation files\rec03\rec03\rec03.cpp(111): warning C4715: 'Minesweeper::done': not all control paths return a value
+  rec03.vcxproj -> C:\Users\Justin Lin\Desktop\C++\Sterling\recitation files\rec03\Debug\rec03.exe
+  rec03.vcxproj -> C:\Users\Justin Lin\Desktop\C++\Sterling\recitation files\rec03\Debug\rec03.pdb (Partial PDB)

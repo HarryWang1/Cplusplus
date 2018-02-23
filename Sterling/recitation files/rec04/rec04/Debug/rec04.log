@@ -1,0 +1,4 @@
+﻿  main_function.cpp
+c:\users\justin lin\desktop\c++\sterling\recitation files\rec04\rec04\main_function.cpp(69): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  rec04.vcxproj -> C:\Users\Justin Lin\Desktop\C++\Sterling\recitation files\rec04\Debug\rec04.exe
+  rec04.vcxproj -> C:\Users\Justin Lin\Desktop\C++\Sterling\recitation files\rec04\Debug\rec04.pdb (Partial PDB)

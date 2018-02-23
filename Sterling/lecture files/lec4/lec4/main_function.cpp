@@ -1,7 +1,7 @@
 /*
 Justin Lin
 Name File:
-Purpose: lec4 and lec5
+Purpose: lec4 / lec5 / lec6
 Classes/structs/data hiding/encapsulation/Overloading Operators
 */
 
