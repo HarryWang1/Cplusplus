@@ -19,33 +19,38 @@ Assumptions that were told to be made in lab:
 #include <sstream>
 using namespace std;
 
+class Section;
+class student;
+class LabWorker;
+
+class student {
+public:
+	//Constructor
+	student(const string& theName) : name(theName) {}
+	string getName() const {
+		return name;
+	}
+
+	//Modifies grade, when called through lab section
+	void modifyGrade(int grade, int theWeek) {
+		grades[theWeek - 1] = grade;
+	}
+	//returns grades
+	vector<int>& returnGrades() {
+		return grades;
+	}
+
+private:
+	string name;
+	vector <int> grades{ -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 }; // 14 -1
+};
+
 //Classes and Structs
 class Section {
 	//OSstream prototype declaration
 	friend ostream& operator<<(ostream& os, const Section& rhs);
 public:
 	//Class student
-	class student {
-	public:
-		//Constructor
-		student(const string& theName) : name(theName) {}
-		string getName() const {
-			return name;
-		}
-
-		//Modifies grade, when called through lab section
-		void modifyGrade(int grade, int theWeek) {
-			grades[theWeek - 1] = grade;
-		}
-		//returns grades
-		vector<int>& returnGrades() {
-			return grades;
-		}
-
-	private:
-		string name;
-		vector <int> grades{ -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 }; // 14 -1
-	};
 
 
 	class timeslot {
@@ -71,6 +76,7 @@ public:
 			cout << "Deleting: " << record[i]->getName() << endl;
 			delete record[i];
 		}
+		record.clear();
 	}
 
 	//Copy Constructor
