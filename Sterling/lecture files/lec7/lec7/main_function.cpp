@@ -34,7 +34,19 @@ public:
 	}
 
 	Thing& operator=(const Thing& rhs) {
-
+		/*
+		1. Free up whatever heap space the lhs is holding (destructor)
+		2. Copy constructor code
+		2. a. allocate
+		2. b. copying
+		*/
+		if (this != &rhs) {
+			//Free up whatever heap the lhs is holding
+			delete p;
+			//copying
+			p = new int(*rhs.p);
+		}
+		return *this;
 	}
 
 private:
