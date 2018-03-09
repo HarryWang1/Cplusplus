@@ -1,0 +1,9 @@
+﻿  student.cpp
+  rec07.cpp
+c:\users\justin lin\desktop\c++\sterling\recitation files\rec7\rec7\registrar.h(23): error C2143: syntax error: missing ';' before '<'
+c:\users\justin lin\desktop\c++\sterling\recitation files\rec7\rec7\registrar.h(23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\justin lin\desktop\c++\sterling\recitation files\rec7\rec7\registrar.h(23): error C2238: unexpected token(s) preceding ';'
+c:\users\justin lin\desktop\c++\sterling\recitation files\rec7\rec7\registrar.h(24): error C2143: syntax error: missing ';' before '<'
+c:\users\justin lin\desktop\c++\sterling\recitation files\rec7\rec7\registrar.h(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\justin lin\desktop\c++\sterling\recitation files\rec7\rec7\registrar.h(24): error C2238: unexpected token(s) preceding ';'
+  Generating Code...

@@ -62,13 +62,14 @@ int main() {
 	cout << "*q contains " << *q << endl;
 
 	//Task 14
+	cout << "Task 14" << endl;
 	double d(33.44);
 	double* pD(&d);
 	*pD = *p;
 	*pD = 73.2343;
-	*p = *pD;
-	*q = *p;
-	//pD = p;
+	//*p = *pD;
+	//*q = *p;
+	////pD = p;
 	//p = pD;
 
 	//Task 15

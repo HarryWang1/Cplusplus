@@ -1,3 +1,9 @@
-﻿  rec06-orig.cpp
-  rec06.vcxproj -> C:\Users\Justin Lin\Desktop\C++\Sterling\recitation files\rec06\Debug\rec06.exe
-  rec06.vcxproj -> C:\Users\Justin Lin\Desktop\C++\Sterling\recitation files\rec06\Debug\rec06.pdb (Partial PDB)
+﻿  main_function.cpp
+c:\users\justin lin\desktop\c++\sterling\recitation files\rec06\rec06\main_function.cpp(9): error C2061: syntax error: identifier 'string'
+c:\users\justin lin\desktop\c++\sterling\recitation files\rec06\rec06\main_function.cpp(12): error C3646: 's': unknown override specifier
+c:\users\justin lin\desktop\c++\sterling\recitation files\rec06\rec06\main_function.cpp(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\justin lin\desktop\c++\sterling\recitation files\rec06\rec06\main_function.cpp(9): error C2065: 's': undeclared identifier
+c:\users\justin lin\desktop\c++\sterling\recitation files\rec06\rec06\main_function.cpp(9): error C2614: 'Thing': illegal member initialization: 's' is not a base or member
+c:\users\justin lin\desktop\c++\sterling\recitation files\rec06\rec06\main_function.cpp(18): error C2061: syntax error: identifier 'string'
+c:\users\justin lin\desktop\c++\sterling\recitation files\rec06\rec06\main_function.cpp(19): error C2523: 'GotHeap::~GetHeap': destructor tag mismatch
+c:\users\justin lin\desktop\c++\sterling\recitation files\rec06\rec06\main_function.cpp(18): error C2065: 's': undeclared identifier

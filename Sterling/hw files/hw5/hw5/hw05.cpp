@@ -13,7 +13,6 @@ using namespace std;
 /*
 Class Declaration
 */
-
 class Warrior {
 private:
 	string name;
@@ -177,6 +176,7 @@ size_t findIndexNoble(const vector <Noble*>& nobles, const string& name); //Help
 int main() {
 	string file = "nobleWarriors.txt";
 	initializeWarriors(file);
+	return 1;
 }
 
 size_t findIndexWarrior(const vector <Warrior*>& warriors, const string& name) {
