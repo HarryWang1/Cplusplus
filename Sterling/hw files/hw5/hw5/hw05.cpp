@@ -140,7 +140,6 @@ public:
 			}
 
 		}
-
 	}
 	//Returns Name
 	string getName() const {
@@ -210,7 +209,7 @@ void initializeWarriors(const string& filename) {
 		cerr << "Unable to open file";
 		exit(1);   // call system to stop
 	}
-
+	
 	while (getline(warstream, line)) {
 		stringstream wordStream(line);
 		while (wordStream >> word) {
