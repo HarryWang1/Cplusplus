@@ -63,7 +63,7 @@ namespace CS2124 {
 	}
 
 	bool operator<=(const Rational& lhs, const Rational& rhs) {
-		return (lhs < rhs || (rhs == lhs))
+		return (lhs < rhs || (rhs == lhs));
 	}
 
 	bool operator>(const Rational& lhs, const Rational& rhs) {
