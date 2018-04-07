@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\justin lin\desktop\c++\sterling\recitation files\rec12_inheritance\rec12_inheritance\main.cpp(51): warning C4838: conversion from 'int' to 'char' requires a narrowing conversion
+c:\users\justin lin\desktop\c++\sterling\recitation files\rec12_inheritance\rec12_inheritance\main.cpp(51): warning C4309: 'initializing': truncation of constant value
+  rec12_Inheritance.vcxproj -> C:\Users\Justin Lin\Desktop\C++\Sterling\recitation files\rec12_Inheritance\Debug\rec12_Inheritance.exe
+  rec12_Inheritance.vcxproj -> C:\Users\Justin Lin\Desktop\C++\Sterling\recitation files\rec12_Inheritance\Debug\rec12_Inheritance.pdb (Partial PDB)
