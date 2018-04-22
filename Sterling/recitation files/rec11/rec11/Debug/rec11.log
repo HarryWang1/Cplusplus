@@ -1,5 +1,0 @@
-﻿  linkedListFuncs2.cpp
-c:\users\justin lin\desktop\c++\sterling\recitation files\rec11\rec11\linkedlistfuncs2.cpp(202): warning C4715: 'subListAddress': not all control paths return a value
-c:\users\justin lin\desktop\c++\sterling\recitation files\rec11\rec11\linkedlistfuncs2.cpp(177): warning C4715: 'subList': not all control paths return a value
-  rec11.vcxproj -> C:\Users\Justin Lin\Desktop\C++\Sterling\recitation files\rec11\Debug\rec11.exe
-  rec11.vcxproj -> C:\Users\Justin Lin\Desktop\C++\Sterling\recitation files\rec11\Debug\rec11.pdb (Partial PDB)

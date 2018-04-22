@@ -1,0 +1,4 @@
+﻿  rec12-test.cpp
+c:\users\justin lin\desktop\c++\recitation files\rec12\rec12-test.cpp(93): warning C4715: 'List::insert': not all control paths return a value
+  rec12.vcxproj -> C:\Users\Justin Lin\Desktop\C++\recitation files\rec12\Debug\rec12.exe
+  rec12.vcxproj -> C:\Users\Justin Lin\Desktop\C++\recitation files\rec12\Debug\rec12.pdb (Partial PDB)
