@@ -1,0 +1,48 @@
+/*
+Justin Lin
+NYU ID: jwl488
+N#: 19699912
+Name File: lec11
+Purpose: 
+*/
+
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <vector>
+#include <sstream>
+
+
+STL:
+Iterators have to have:
+1) incrementation ++
+2) * dereference
+3) != not equal
+4) Square Brackets
+5) Random Access (meaning you need addition)
+
+Iterators Example:
+class Iterator {
+		friend List;
+		friend Node;
+
+		friend bool operator!=(const Iterator& lhs, const Iterator& rhs) {
+			return lhs.p != rhs.p;
+		}
+	public:
+		Iterator(Node* p) : p(p) {}
+
+		Iterator& operator++() {
+			p = p->next;
+			return *this;
+		}
+		const int operator*() const {
+			return p->data;
+		}
+		int& operator*() {
+			return p->data;
+		}
+	private:
+		Node* p;
+	};
+}
