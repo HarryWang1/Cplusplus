@@ -1,4 +1,3 @@
 ﻿  main.cpp
-c:\users\justin lin\desktop\c++\lecture files\lec11\lec11\main.cpp(13): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   lec11.vcxproj -> C:\Users\Justin Lin\Desktop\C++\lecture files\lec11\Debug\lec11.exe
   lec11.vcxproj -> C:\Users\Justin Lin\Desktop\C++\lecture files\lec11\Debug\lec11.pdb (Partial PDB)

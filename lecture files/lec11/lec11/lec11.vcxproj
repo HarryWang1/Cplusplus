@@ -115,6 +115,10 @@
       <SubType>
       </SubType>
     </ClCompile>
+    <ClCompile Include="main1.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Note.txt" />
