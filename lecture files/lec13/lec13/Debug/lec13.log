@@ -1,0 +1,4 @@
+﻿  main1.cpp
+c:\users\justin lin\desktop\c++\lecture files\lec13\lec13\main1.cpp(32): warning C4101: 'ex': unreferenced local variable
+  lec13.vcxproj -> C:\Users\Justin Lin\Desktop\C++\lecture files\lec13\Debug\lec13.exe
+  lec13.vcxproj -> C:\Users\Justin Lin\Desktop\C++\lecture files\lec13\Debug\lec13.pdb (Partial PDB)

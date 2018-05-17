@@ -1,0 +1,6 @@
+﻿  rec14.cpp
+c:\users\justin lin\desktop\c++\recitation files\rec14\rec14\rec14.cpp(125): warning C4101: 'ex': unreferenced local variable
+c:\users\justin lin\desktop\c++\recitation files\rec14\rec14\rec14.cpp(136): warning C4101: 'ex': unreferenced local variable
+c:\users\justin lin\desktop\c++\recitation files\rec14\rec14\rec14.cpp(31): warning C4715: 'towerOfHanoi': not all control paths return a value
+  rec14.vcxproj -> C:\Users\Justin Lin\Desktop\C++\recitation files\rec14\Debug\rec14.exe
+  rec14.vcxproj -> C:\Users\Justin Lin\Desktop\C++\recitation files\rec14\Debug\rec14.pdb (Partial PDB)
